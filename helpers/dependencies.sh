@@ -23,5 +23,5 @@ fi
 if [ -d "$PROJECT_DIR/tools/Firmware_extractor" ]; then
     git -C $PROJECT_DIR/tools/Firmware_extractor pull --recurse-submodules
 else
-    git clone --recurse-submodules https://github.com/ShivamKumarJha/Firmware_extractor $PROJECT_DIR/tools/Firmware_extractor
+    git clone --recurse-submodules https://github.com/Vachounet/Firmware_extractor $PROJECT_DIR/tools/Firmware_extractor
 fi
